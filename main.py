@@ -9,11 +9,11 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 psw = []
-for l in range( nr_letters ):
+for pas in range(nr_letters):
   psw += random.choice(letters)
-for l in range( nr_symbols ):
+for pas in range(nr_symbols):
   psw += random.choice(symbols)
-for l in range( nr_numbers ):
+for pas in range(nr_numbers):
   psw += random.choice(numbers)
 
 random.shuffle(psw)
